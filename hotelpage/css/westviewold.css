@@ -1,0 +1,466 @@
+#header-logo {
+    width: 175px;
+    height: 80px;
+    margin: 5px auto;
+    text-indent: -1000em;
+}
+.navbar-fixed-top + .content-container {
+    margin-top: 70px;
+}
+.content-container {
+    margin: 0 130px;
+}
+
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px; /* height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
+/*button top*/
+ .nav-bar-head .logo {
+    width: 200px;
+    height: 100px;
+    background: #FFE8A4 linear-gradient(to bottom, #FFF, #FFF) repeat scroll 0% 0%;
+    border-radius: 60%;
+    position: relative;
+    float: left;
+    top: 0px;
+    left: 0px;
+    margin: 5px 0px 0px;
+    text-align: center;
+    border: 2px solid #FFD6A7;
+}
+.head-logo {
+    margin-top: 25px;
+    float: left;
+}
+
+ .nav-bar-head {
+    width: 65%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.btn-promo1{
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom, #76F32B, #7CC91C);
+}
+.btn-promo2{
+    border-radius: 4px;
+    color: #FFF;
+    background-image:  linear-gradient(to bottom, #5595F6, #3969CB);
+}
+.btn-promo3{
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom, #FF8416, #C96E1C);
+}
+.btn-promo4{
+    border-radius: 4px;
+    color: #000;
+    background-image: linear-gradient(to bottom, #FBB633, #F89516);
+    border-color: #FDD680;
+}
+.btn-dark {
+    border-radius: 0px;
+    color: #FFFFFF;
+    background-color: #FF7B03;
+}
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+    color: #FFFFFF;
+    background-color: #C96E1C;
+}
+.btn-promo1:hover, .btn-promo1:focus, .btn-dark:active {
+    color: #FFFFFF;
+    background-color: #C96E1C;
+}
+.btn-promo2:hover, .btn-promo2:focus, .btn-dark:active {
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom, rgb(85, 149, 246), rgb(54, 86, 152));
+}
+.btn-promo3:hover, .btn-promo3:focus, .btn-dark:active {
+    color: #FFFFFF;
+    background-color: #C96E1C;
+}
+body { font-family: Merriweather,"Helvetica Neue",Arial,sans-serif;};
+
+hr.small {
+    max-width: 100px;
+}
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(24,188,156,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+    margin: 0;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px 0px;
+    min-height: 100%;
+    border: 0px none;
+    border-radius: 0px;
+    text-align: center;
+    background-clip: border-box;
+    box-shadow: none;
+    background: url(../css/user/5.jpg);
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.portfolio-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+.circle-mask {
+    display: block;
+    height: 96px;
+    width: 96px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    margin-bottom: 10px;
+    background-size: 96px auto;
+    background-repeat: no-repeat;
+    background-image: url('../css/user/avatar_2x.png');
+    transition: opacity 0.075s ease 0s;
+}
+/*=============================================================*/
+#room .room-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#room .room-item .room-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#room .room-item .room-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(24,188,156,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#room .room-item .room-link .caption:hover {
+    opacity: 1;
+}
+
+#room .room-item .room-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#room .room-item .room-link .caption .caption-content i {
+    margin-top: -12px;
+}
+
+#room .room-item .room-link .caption .caption-content h3,
+#room .room-item .room-link .caption .caption-content h4 {
+    margin: 0;
+}
+
+#room * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #room .room-item {
+        margin: 0 0 30px;
+    }
+}
+.btn-outline {
+    color: inherit;
+    background-color: transparent;
+    transition: all 0.5s ease 0s;
+}
+.btn-warning.btn-outline {
+    color: #F0AD4E;
+}
+.btn-dark.btn-outline {
+    color: #FF7B03;
+    border-color: #FF7B03;
+}
+.room-modal .modal-content {
+    padding: 100px 0px;
+    min-height: 100%;
+    border: 0px none;
+    border-radius: 0px;
+    text-align: center;
+    background-clip: border-box;
+    box-shadow: none;
+   
+}
+.room-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.room-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.room-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.room-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.room-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.room-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.room-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.room-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+/*gallery*/
+.gallery-modal .modal-content {
+    padding: 100px 0px;
+    min-height: 100%;
+    border: 0px none;
+    border-radius: 0px;
+    text-align: center;
+    background-clip: border-box;
+    box-shadow: none;
+   
+}
+.gallery-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.gallery-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.gallery-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.gallery-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.gallery-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.gallery-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.gallery-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.gallery-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+.circle-mask {
+    display: block;
+    height: 96px;
+    width: 96px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    margin-bottom: 10px;
+    background-size: 96px auto;
+    background-repeat: no-repeat;
+    background-image: url('../css/user/avatar_2x.png');
+    transition: opacity 0.075s ease 0s;
+}
+.timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+}
+.promo-member {
+    margin-bottom: 0px;
+    text-align: center;
+}
+.promo-panel-default {
+    border-color: #FFF;
+}
+.promo-panel-default > .promo-panel-heading {
+    color: #333;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+.promo-panel {
+    margin-bottom: 20px;
+    background-color: #FFF;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+.carousel1{
+    position: relative;
+}
